@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap");
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans24pt-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans24pt-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans24pt-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  line-height: 0;
+}
+
+a,
+i,
+span {
+  display: inline-block;
+}
+
+.holder {
+  max-width: 1294px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.text-holder {
+  max-width: 890px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+header {
+  background-color: #fff;
+  padding: 41px;
+}
+header .holder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header .holder .header_logo {
+  max-width: 15%;
+  flex-basis: 15%;
+}
+header .holder .header_logo a {
+  text-decoration: none;
+}
+header .holder .header_logo a img {
+  width: 139px;
+}
+header .holder .navbar {
+  max-width: 85%;
+  flex-basis: 85%;
+  display: flex;
+  justify-content: flex-end;
+}
+header .holder .navbar .header_menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+header .holder .navbar .header_menu li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: normal;
+}
+
+footer {
+  background-color: #171717;
+}
+footer .footer_top-area {
+  border-bottom: 1px solid rgba(243, 243, 243, 0.3);
+}
+footer .footer_top-area .holder .footer_top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 62px 0;
+}
+footer .footer_top-area .holder .footer_top address {
+  font-style: normal;
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+footer .footer_top-area .holder .footer_top address h4 {
+  font-size: 10px;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+footer .footer_top-area .holder .footer_top address ul {
+  list-style: none;
+}
+footer .footer_top-area .holder .footer_top address ul li {
+  font-size: 10px;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+footer .footer_top-area .holder .footer_top .footer_top_text {
+  text-align: center;
+}
+footer .footer_top-area .holder .footer_top .footer_top_text h3 {
+  color: #f4f0ed;
+  font-size: 26px;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -1px;
+}
+footer .footer_top-area .holder .footer_top .footer_top_text h4 {
+  color: #f4f0ed;
+  font-size: 66px;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  line-height: 81px;
+  letter-spacing: -1px;
+}
+footer .footer_top-area .holder .footer_top .footer_socials {
+  text-transform: uppercase;
+  margin-top: 12px;
+}
+footer .footer_top-area .holder .footer_top .footer_socials h4 {
+  font-size: 10px;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+footer .footer_top-area .holder .footer_top .footer_socials span {
+  display: block;
+}
+footer .footer_top-area .holder .footer_top .footer_socials span a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+footer .footer_bottom-area .holder .footer_contact {
+  padding: 25px 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer_bottom-area .holder .footer_contact div {
+  text-align: center;
+}
+footer .footer_bottom-area .holder .footer_contact div i {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 11px;
+}
+footer .footer_bottom-area .holder .footer_contact div p {
+  font-size: 10px;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+footer .footer_footnote {
+  background-color: #232323;
+  padding: 27px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+footer .footer_footnote span a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 40%;
+}
+
+.img--slide .first-slider {
+  margin-bottom: 35px;
+}
+.img--slide .first-slider div {
+  display: inline-block;
+}
+.img--slide .first-slider div + div {
+  margin-left: 39px;
+}
+.img--slide .last-slider div {
+  display: inline-block;
+}
+.img--slide .last-slider div + div {
+  margin-left: 39px;
+}
+
+.story-banner {
+  padding-top: 34px;
+}
+.story-banner .text-holder .story-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.story-banner .text-holder .story-text div span {
+  color: #434850;
+  font-size: 11.82px;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.story-banner .text-holder .story-text div span + span {
+  font-weight: 500;
+  margin-left: 10.75px;
+}
+.story-banner .text-holder .story-text h1 {
+  color: #000;
+  font-size: 64px;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  line-height: 67.52px;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.story-banner .text-holder .story-text p {
+  color: #000;
+  font-size: 28px;
+  font-family: "DM Sans";
+  font-weight: normal;
+  line-height: 39px;
+}
+.story-banner .text-holder .story-profile_box {
+  max-width: 172px;
+  margin: 0 auto;
+  text-align: center;
+}
+.story-banner .text-holder .story-profile_box div {
+  max-width: 78px;
+  margin: 0 auto 10px auto;
+}
+.story-banner .text-holder .story-profile_box p.name {
+  color: #000;
+  font-size: 15px;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+.story-banner .text-holder .story-profile_box p + p {
+  color: #000;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: normal;
+  line-height: 26px;
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+.story-banner .text-holder .story-profile_box span {
+  color: #434850;
+  font-size: 11.82px;
+  font-family: "Syne", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.title--text {
+  padding: 70px 0;
+}
+.title--text h3,
+.title--text p {
+  color: #000;
+  font-size: 24px;
+  font-family: "DM Sans";
+  font-weight: normal;
+  line-height: 32px;
+}
+.title--text p {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.info-text {
+  background-color: #f1f1f1;
+  padding: 50px 0;
+}
+.info-text .text-holder p.text {
+  color: #000;
+  font-size: 18px;
+  font-family: "DM Sans";
+  font-weight: normal;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.info-text .text-holder p.name {
+  color: #000;
+  font-size: 15px;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.info-text .text-holder span {
+  color: #000;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: normal;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+.text {
+  padding: 70px 0;
+}
+.text .text-holder p {
+  color: #000;
+  font-size: 18px;
+  font-family: "DM Sans";
+  font-weight: normal;
+  line-height: 32px;
+}
+
+.img-title .holder .img-title_img-wrap {
+  display: flex;
+  align-items: center;
+  gap: 15.5px;
+}
+.img-title .holder .img-title_img-wrap .img-title_img {
+  max-width: 307px;
+}
+.img-title .holder p {
+  color: #000;
+  font-size: 15px;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.image .text-holder {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.image .text-holder .image_img {
+  max-width: 258px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,174 @@
+header {
+  background-color: #fff;
+  padding: 41px;
+  .holder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .header_logo {
+      max-width: 15%;
+      flex-basis: 15%;
+      a {
+        text-decoration: none;
+        img {
+          width: 139px;
+        }
+      }
+    }
+    .navbar {
+      max-width: 85%;
+      flex-basis: 85%;
+      display: flex;
+      justify-content: flex-end;
+      .header_menu {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 47px;
+        li {
+          a {
+            text-decoration: none;
+            text-transform: capitalize;
+            color: #000;
+            font-size: 16px;
+            font-family: "DM Sans";
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}
+// === end of header===
+
+// === start of footer===
+footer {
+  background-color: #171717;
+  .footer_top-area {
+    border-bottom: 1px solid rgba(243, 243, 243, 0.3);
+    .holder {
+      .footer_top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 62px 0;
+        address {
+          font-style: normal;
+          text-transform: uppercase;
+          margin-top: 12px;
+          h4 {
+            font-size: 10px;
+            color: #fff;
+            font-family: "Syne", sans-serif;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 1px;
+          }
+          ul {
+            list-style: none;
+            li {
+              font-size: 10px;
+              color: #fff;
+              font-family: "Syne", sans-serif;
+              font-weight: 600;
+              line-height: 24px;
+              letter-spacing: 1px;
+            }
+          }
+        }
+        .footer_top_text {
+          text-align: center;
+          h3 {
+            color: #f4f0ed;
+            font-size: 26px;
+            font-family: "Syne", sans-serif;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: -1px;
+          }
+          h4 {
+            color: #f4f0ed;
+            font-size: 66px;
+            font-family: "Syne", sans-serif;
+            font-weight: 700;
+            line-height: 81px;
+            letter-spacing: -1px;
+          }
+        }
+        .footer_socials {
+          text-transform: uppercase;
+          margin-top: 12px;
+          h4 {
+            font-size: 10px;
+            color: #fff;
+            font-family: "Syne", sans-serif;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 1px;
+          }
+          span {
+            display: block;
+            a {
+              text-decoration: none;
+              font-size: 10px;
+              color: #fff;
+              font-family: "Syne", sans-serif;
+              font-weight: 600;
+              line-height: 24px;
+              letter-spacing: 1px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer_bottom-area {
+    .holder {
+      .footer_contact {
+        padding: 25px 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div {
+          text-align: center;
+          i {
+            font-size: 20px;
+            color: #fff;
+            margin-bottom: 11px;
+          }
+          p {
+            font-size: 10px;
+            color: #fff;
+            font-family: "Syne", sans-serif;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+  .footer_footnote {
+    background-color: #232323;
+    padding: 27px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    span {
+      a {
+        text-decoration: none;
+        font-size: 10px;
+        color: #fff;
+        font-family: "Syne", sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        opacity: 40%;
+      }
+    }
+  }
+}
+// === start of footer===
